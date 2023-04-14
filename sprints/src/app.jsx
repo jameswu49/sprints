@@ -4,6 +4,7 @@ import Subtraction from "./components/subtraction"
 import Multiplication from "./components/multiplication"
 import Division from "./components/division"
 import Mixed from "./components/mixed"
+import Multi from "./components/multi"
 import { Routes, Route } from "react-router"
 
 export default function App() {
@@ -13,9 +14,10 @@ export default function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/addition" element={<Addition />} />
                 <Route path="/subtraction" element={<Subtraction />} />
+                <Route path="/mixed" element={<Mixed />} />
                 <Route path="/multiplication" element={<Multiplication />} />
                 <Route path="/division" element={<Division />} />
-                <Route path="/mixed" element={<Mixed />} />
+                <Route path="/multi" element={<Multi />} />
             </Routes>
         </>
     )

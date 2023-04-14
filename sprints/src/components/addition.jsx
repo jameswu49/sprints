@@ -12,6 +12,17 @@ export default function Addition() {
 }
 
 function add() {
-    return Math.floor(Math.random() * 10) + " + " + Math.floor(Math.random() * 10) + " ="
-}
+    let num1 = 0, num2 = 0;
+    
+    while (num1 === 0) {
+      num1 = Math.floor(Math.random() * 10);
+    }
+  
+    while (num2 === 0) {
+      num2 = Math.floor(Math.random() * 10);
+    }
+    
+    return `${num1} + ${num2} =`;
+  }
+  
 

@@ -5,11 +5,11 @@ import Multiplication from "./components/multiplication"
 import Division from "./components/division"
 import Mixed from "./components/mixed"
 import Multi from "./components/multi"
-import { Routes, Route } from "react-router"
+import { Routes, Route, Router } from "react-router"
 
 export default function App() {
     return (
-        <>
+        <><Router basename="/sprints">
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/addition" element={<Addition />} />
@@ -19,6 +19,7 @@ export default function App() {
                 <Route path="/division" element={<Division />} />
                 <Route path="/multi" element={<Multi />} />
             </Routes>
+        </Router>
         </>
     )
 }

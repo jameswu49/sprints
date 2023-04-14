@@ -4,7 +4,7 @@ import "../index.css"
 
 export default function Addition() {
     return (
-        <section className="mt-5 mb-10">
+        <section className="my-10">
             <Header />
             <Table equation={add} />
         </section>

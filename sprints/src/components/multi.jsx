@@ -4,7 +4,7 @@ import "../index.css"
 
 export default function Multi() {
     return (
-        <section className="mt-5 mb-10">
+        <section className="my-10">
             <Header />
             <Table equation={multi} />
         </section>

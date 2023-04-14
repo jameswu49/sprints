@@ -3,10 +3,10 @@ export default function Table({ equation }) {
     for (let i = 0; i < 19; i++) {
         tableElements.push(
             <section className="flex w-[150%] print:px-10 print:w-full md:px-60 lg:w-full lg:px-80">
-                <div key={i} className="border border-black w-[50%] pl-5 py-2 text-xl">
+                <div className="border border-black w-[50%] pl-5 py-2 text-xl">
                     {equation()}
                 </div>
-                <div key={i} className="border border-black w-[50%] pl-5 py-2 text-xl">
+                <div className="border border-black w-[50%] pl-5 py-2 text-xl">
                     {equation()}
                 </div>
             </section>

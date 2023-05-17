@@ -1,12 +1,11 @@
-import Table from "./table"
-import Header from "./header"
-import "../index.css"
+import Header from "../header"
+import TkTable from "./tk-table";
 
-export default function Mixed() {
+export default function TkMixed() {
     return (
         <section className="my-10">
             <Header />
-            <Table equation={mixed} />
+            <TkTable equation={mixed} />
         </section>
     )
 }
@@ -22,7 +21,14 @@ function mixed() {
 
     const operator = Math.random() < 0.5 ? '+' : '-';
 
-    return `${num1} ${operator} ${num2} =`;
+    const dot = '●';
+    const dots1 = dot.repeat(num1);
+    const dots2 = dot.repeat(num2);
+
+    return `${dots1} ${operator} ${dots2} =`;
 }
+
+
+
 
 

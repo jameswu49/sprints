@@ -4,7 +4,7 @@ export default function HomePage() {
     return (
         <>
             <Title />
-            <section className="my-10 mx-auto w-fit md:grid md:grid-cols-3 md:gap-4 md:justify-center">
+            <section className="my-10 mx-auto w-fit md:flex md:justify-center">
                 <Link to="/tk"><TkHome /></Link>
                 <Link to="/upper"><Upper /></Link>
             </section>

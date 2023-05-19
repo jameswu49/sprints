@@ -2,14 +2,14 @@ import { Link } from "react-router-dom"
 
 export default function TkHome() {
     return (
-        <>
+        <div className="md:flex md:flex-col md:justify-center md:items-center md:h-screen">
             <Title />
-            <section className="my-10 mx-auto w-fit md:grid md:grid-cols-3 md:gap-4 md:justify-center">
+            <section className="my-10 mx-auto w-fit md:flex md:justify-center md:items-center">
                 <Link to="/tkaddition"><Addition /></Link>
                 <Link to="/tksubtraction"><Subtraction /></Link>
                 <Link to="/tkmixed"><Mixed /></Link>
             </section>
-        </>
+        </div>
     )
 }
 

@@ -23,9 +23,7 @@ function TkHome() {
         <section className="flex flex-col items-center w-fit">
             <p className="flex flex-col items-center text-lg font-bold underline">Tk</p>
             <div className="py-4 mx-2 mt-2 border border-black rounded-md flex justify-center items-end w-64 h-80 lg:mr-10 relative">
-                <img className="h-full absolute top-0" src="images/add.png"
-                    onMouseOver={e => (e.currentTarget.src = "images/add.gif")}
-                    onMouseLeave={e => (e.currentTarget.src = "images/add.png")}
+                <img className="h-full absolute top-0" src="images/tk.jpg"
                     alt="" />
             </div>
         </section>
@@ -37,9 +35,7 @@ function Upper() {
         <section className="flex flex-col items-center w-fit">
             <p className="flex flex-col items-center text-lg font-bold underline">2nd Grade</p>
             <div className="py-4 mx-2 mt-2 border border-black rounded-md flex justify-center items-end w-64 h-80 lg:mr-10 relative">
-                <img className="h-full absolute top-0" src="images/add.png"
-                    onMouseOver={e => (e.currentTarget.src = "images/add.gif")}
-                    onMouseLeave={e => (e.currentTarget.src = "images/add.png")}
+                <img className="h-full absolute top-0" src="images/upper.png"
                     alt="" />
             </div>
         </section>

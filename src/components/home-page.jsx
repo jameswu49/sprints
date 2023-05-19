@@ -2,13 +2,13 @@ import { Link } from "react-router-dom"
 
 export default function HomePage() {
     return (
-        <>
-            <Title />
+        <div className="md:flex md:flex-col md:justify-center md:items-center md:h-screen">
+            < Title />
             <section className="my-10 mx-auto w-fit md:flex md:justify-center">
                 <Link to="/tk"><TkHome /></Link>
                 <Link to="/upper"><Upper /></Link>
             </section>
-        </>
+        </div >
     )
 }
 

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 export default function Home() {
     return (
-        <>
+        <div className="md:flex md:flex-col md:justify-center md:items-center md:h-screen">
             <Title />
             <section className="my-10 mx-auto w-fit md:grid md:grid-cols-3 md:gap-4 md:justify-center">
                 <Link to="/addition"><Addition /></Link>
@@ -12,7 +12,7 @@ export default function Home() {
                 <Link to="/division"><Division /></Link>
                 <Link to="/multi"><Multi /></Link>
             </section>
-        </>
+        </div>
     )
 }
 
